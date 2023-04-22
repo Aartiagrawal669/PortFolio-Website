@@ -1,0 +1,125 @@
+.section1 {
+    padding: 6rem 0 2rem;
+}
+.container {
+    max-width:1040px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+.home_content{
+    grid-template-columns: 450px repeat(2,1fr);
+    padding-top:4.5rem;
+    column-gap:10rem;
+    align-items: center;
+}
+
+.home_img{
+   background: url(../Components/assets/profile.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   box-shadow: inset 0 0 0 9px rgb(255 255 255/ 30%);
+   order: 2;
+   border-radius:30px;
+   justify-self: center; 
+   width:400px;
+   height:400px;
+   animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate {
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.home_title{
+    font-size:1.5rem;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:300;
+}
+.home_subtitle{
+    position: relative;
+    font-size:1.2rem;
+    padding-left:5rem;
+    margin-bottom:10px;
+    font-weight:200;
+}
+.home_subtitle::before{
+    content: " ";
+    position: absolute;
+    width:70px;
+    height:1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+.home_description{
+    max-width:350px;
+    margin-bottom:2.5rem;
+}
+.home{
+    background: blanchedalmond;
+    padding-top:8rem;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home_content{
+      grid-template-columns: 430px repeat(2,1fr);
+      column-gap:4.25rem;
+    }
+    .home_subtitle{
+        padding-left:6.75rem;
+        margin-bottom:1rem;
+    }
+    .home_subtitle::before{
+        padding-left:1.75rem;
+        width:20px;
+        top:0.8rem;
+        left:3.7rem;
+    }
+    .home_description{
+        padding-left:3.75rem;
+        max-width:initial;
+        margin-bottom:1.5rem;
+    }
+    .home_img{
+        width: 300px;
+        height:300px;
+        box-shadow: inset 0 0 0 8px rgb(255 255 255/ 30%);
+    }
+    .home_title{
+        padding-left:3.75rem;
+    }
+    .home_content a{
+        margin-left:5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home_content{
+        grid-template-columns:2fr 2fr;
+        padding-top:2rem;
+        padding-bottom:4rem;
+    }
+    .home_img{
+        order: initial;
+        justify-self:initial;
+    }
+    .home_data{
+        grid-column: 1/3;
+    }
+    .home_img{
+        box-shadow: inset 0 0 0 6px rgb(255 255 255/ 30%);
+        width:250px;
+        height:250px;
+        margin-left:5rem;
+    }
+}

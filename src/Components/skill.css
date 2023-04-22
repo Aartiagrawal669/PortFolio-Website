@@ -1,0 +1,84 @@
+.card{
+    box-shadow: 0 0 0 hsl(0, 0%, 22%);
+    display: flex;
+    transition:0.25s ease;
+}
+.card-sm:is(:hover ,:focus-within){
+   box-shadow:5px 5px 0 hsl(0, 0%, 22%);
+}
+:is(.card-lg,.card-sm):is(:hover ,:focus-within){
+   box-shadow:3px 3px 0 hsl(0, 0%, 22%);
+}
+.card,
+.card-media{
+    border:2px solid hsl(0, 0%, 22%) ;
+}
+.card-lg{
+    padding:25px;
+}
+.card-md{
+    padding:30px;
+}
+.card-sm{
+    padding:10px;
+    align-items: center;
+    gap:15px;
+}
+.card-lg,
+.card-md{
+    align-items:flex-start;
+    flex-direction: column;
+    gap:20px;
+}
+.card-lg .card-media{
+    width:100px;
+    height:100px;
+}
+.card-md .card-media{
+    width:70px;
+    height:70px;
+}
+.card-sm .card-media{
+    width:50px;
+    height:50px;
+}
+.card-media{
+    background-color: white;
+    color:hsl(0, 0%, 22%);
+    display:grid;
+    place-items:center;
+    flex-shrink:0;
+}
+.skill{
+    padding-block-end: 0;
+}
+.skill .container,
+.skill-list{
+    display:grid;
+}
+.skill .container{
+    gap:50px;
+}
+.skill-list{
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:15px;
+}
+.skill .card i{
+    font-size: 3rem;
+}
+.skill .card .card-title{
+    color:hsl(0, 0%, 22%);
+    font-size:1.4rem;
+    font-weight: 500;
+}
+.section-title {
+    margin-block-end: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight:500;
+}
+.skill-content{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-bottom:4rem;
+}
