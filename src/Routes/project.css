@@ -23,20 +23,23 @@
     font-size:2rem;
 }
 .label-md { font-size:1rem; }
-.container1 { padding-inline: 16px; }
+.container1 { padding-inline: 16px;}
 
 .section1 { 
     padding-block:60px;
 }
 .project{
-    background-color:hsla(41, 99%, 64%, 0.1);
     padding-block-start:120px;
+    background-color:hsla(41, 99%, 64%, 0.1);
 }
 .project-list,
 .project-card{
     display:grid;
 }
-.project-list{ gap:50px;}
+.project-list{ 
+gap:50px;
+margin-bottom:6rem;
+}
 .project-card{ gap:25px;}
 .project-card .card-banner{
     position:relative;
@@ -53,8 +56,8 @@
     left:0;
     background-color:white;
     color:hsl(0, 0%, 22%);
-    font-size:2rem;
-    padding:4px;
+    font-size:1.5rem;
+    padding:2px;
     border: 2px solid hsl(0, 0%, 22%);
     opacity:0;
     transition: 0.25s ease;

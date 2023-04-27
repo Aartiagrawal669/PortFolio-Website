@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import './project.css';
 import project1 from "../Components/assets/project-1.jpeg";
-import project2 from "../Components/assets/project-2.jpg";
+import project2 from "../Components/assets/project-2.jpeg";
 import project3 from "../Components/assets/project-3.jpeg";
 
 
@@ -30,8 +30,9 @@ const Project = () => {
                     web Design
                   </span>
                   <h3 className='title-md'>Staple Website is design for Medicinal Rice Varities </h3>
-                  <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore commodi, mollitia cum odio, molestias, minus aut dolorum veritatis consequuntur optio blanditiis quae quo! Ab nam provident facilis incidunt, nisi temporibus.</p>
-                  <a href="/" className="button button--flex">View Project</a>
+                  <p className="card-text">With its focus on promoting the medicinal varieties of rice and connecting farmers with expert opinions, Staple represents an innovative and impactful approach to promoting sustainable and healthy rice farming practices.
+                  </p>
+                  <a href="https://github.com/Aartiagrawal669/Staple-ProjectRice" className="button button--flex" target="_blank" rel="noreferrer">View Project</a>
                 </div>
             </div>
           </li>
@@ -49,9 +50,9 @@ const Project = () => {
                   <span className="clip label-md">
                     web Design
                   </span>
-                  <h3 className='title-md'>Staple Website is design for Medicinal Rice Varities </h3>
-                  <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore commodi, mollitia cum odio, molestias, minus aut dolorum veritatis consequuntur optio blanditiis quae quo! Ab nam provident facilis incidunt, nisi temporibus.</p>
-                  <a href="/" className="button button--flex">View Project</a>
+                  <h3 className='title-md'>Portfolio Built with React-JS</h3>
+                  <p className="card-text">My portfolio website, created using React JS, is a showcase of my skills and work samples.The homepage features an introduction about myself my skills and my projects. The navigation menu allows easy access to the different sections of the website, including my work sample and contact information.</p>
+                  <a href="https://github.com/Aartiagrawal669/PortFolio-Website" target="_blank" rel="noreferrer" className="button button--flex">View Project</a>
                 </div>
             </div>
           </li>
@@ -69,9 +70,9 @@ const Project = () => {
                   <span className="clip label-md">
                     web Design
                   </span>
-                  <h3 className='title-md'>Staple Website is design for Medicinal Rice Varities </h3>
-                  <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore commodi, mollitia cum odio, molestias, minus aut dolorum veritatis consequuntur optio blanditiis quae quo! Ab nam provident facilis incidunt, nisi temporibus.</p>
-                  <a href="/" className="button button--flex">View Project</a>
+                  <h3 className='title-md'>Textutils: A User-Friendly, Responsive Website for Easy Text Manipulation</h3>
+                  <p className="card-text">Textutils is a responsive website designed to help users manipulate text easily. With its user-friendly interface, users can copy and paste text into the tool and perform a variety of manipulations, such as removing extra spaces, converting to uppercase or lowercase,copy text and clear text.</p>
+                  <a href="https://github.com/Aartiagrawal669/TextUtils-React" target="_blank" rel="noreferrer" className="button button--flex">View Project</a>
                 </div>
             </div>
           </li>
