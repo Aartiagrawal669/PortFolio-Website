@@ -18,8 +18,8 @@ const Project = () => {
           <li>
             <div className="project-card">
 
-                <div className="card-banner img-holder" style={{width:'400px', height:'250px'}}>
-                  <img src={project1} alt="Staple Website" className="img-cover" width={'400px'} height={'250px'}/>
+                <div className="card-banner img-holder">
+                  <img src={project1} alt="Staple Website" className="img-cover" />
                     <a href="/" className="btn-icon">
                       <i class='bx bx-right-arrow-alt'></i>
                     </a>
@@ -39,8 +39,8 @@ const Project = () => {
           <li>
             <div className="project-card">
 
-                <div className="card-banner img-holder" style={{width:'400px', height:'250px'}}>
-                  <img src={project2} alt="Staple Website" className="img-cover" width={'400px'} height={'250px'}/>
+                <div className="card-banner img-holder" >
+                  <img src={project2} alt="Staple Website" className="img-cover" />
                     <a href="/" className="btn-icon">
                       <i class='bx bx-right-arrow-alt'></i>
                     </a>
@@ -59,8 +59,8 @@ const Project = () => {
           <li>
             <div className="project-card">
 
-                <div className="card-banner img-holder" style={{width:'400px', height:'250px'}}>
-                  <img src={project3} alt="Staple Website" className="img-cover" width={'400px'} height={'250px'}/>
+                <div className="card-banner img-holder">
+                  <img src={project3} alt="Staple Website" className="img-cover"/>
                     <a href="/" className="btn-icon">
                       <i class='bx bx-right-arrow-alt'></i>
                     </a>

@@ -13,7 +13,7 @@
     object-fit: cover;
 }
 .img-holder {
-    aspect-ratio: 700px / 300px;
+    /* aspect-ratio: 700px / 300px; */
     background-color: hsl(0, 0%, 33%);
     overflow: hidden;
 }
