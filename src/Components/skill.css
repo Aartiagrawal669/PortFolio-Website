@@ -61,7 +61,7 @@
     gap:50px;
 }
 .skill-list{
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:15px;
 }
 .skill .card i{
