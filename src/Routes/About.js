@@ -9,7 +9,7 @@ const About=()=> {
     <>
     <Navbar/>
     <section className="section about">
-      <div className="container">
+      <div className="container container1">
         <figure className='about-banner'>
           <img src={profile} alt="Aarti's Profile" width={'400px'} height={'250px'}/>
         </figure>
