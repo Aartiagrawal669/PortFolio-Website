@@ -14,10 +14,10 @@ const Footer = () => {
                 <a href="https://github.com/Aartiagrawal669" className="footer__social-link" target='blank'>
                     <i class='bx bxl-github'></i> 
                 </a>
-                <a href="https://www.linkedin.com/in/aarti-agrawal" className="footer__social-link" target='blank'>
+                <a href="https://www.linkedin.com/in/aarti-agrawal-39a054237/" className="footer__social-link" target='blank'>
                     <i class='bx bxl-linkedin-square'></i>
                 </a>
-                <a href="/" className="footer__social-link" target='blank'>
+                <a href="https://www.instagram.com/_aarti_agrawal_/" className="footer__social-link" target='blank'>
                     <i className="bx bxl-instagram"></i>
                 </a>
              </div>
