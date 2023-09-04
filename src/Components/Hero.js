@@ -10,7 +10,7 @@ const Hero = () => {
                   <div className="home_img"></div>
                     <div className="home_data">
                         <h1 className="home_title">Hii I'm Aarti Agrawal</h1>
-                        <h3 className="home_subtitle"> Fontend Developer</h3>
+                        <h3 className="home_subtitle"> Frontend Developer</h3>
                         <p className="home_description">
                          I'm a front-end software engineer based in Raipur, and I love what I do. I am passionate about creating elegant, efficient, and user-friendly interfaces that provide a seamless experience for users.I am committed to staying up-to-date with the latest tools and technologies in order to provide the best possible solutions.
                         </p>
